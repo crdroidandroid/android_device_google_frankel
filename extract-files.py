@@ -8,6 +8,6 @@ set -e
 
 MY_DIR="$(cd "$(dirname "${0}")"; pwd -P)"
 
-pushd "${MY_DIR}/../caimito/tokay"
+pushd "${MY_DIR}/../muzel/frankel"
 ./extract-files.py $@
 popd
